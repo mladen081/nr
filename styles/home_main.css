@@ -23,6 +23,9 @@
     font-size: 2rem;
     padding: 0 5%;
 }
+.mobile {
+   display: none;
+}
 .section-text h1 {
     margin-bottom: 30px;
     font-weight: 400;
@@ -45,6 +48,12 @@
     }
     .section-text {
         flex: 100%;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
     }
 }
 @media (max-width: 767px) {
