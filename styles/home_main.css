@@ -38,7 +38,8 @@
     height: auto;
     margin: auto;
     border-radius: 20px;
-    border: 5px solid lightgray;
+    /*border: 5px solid lightgray;*/
+    box-shadow: 10px 5px 5px lightgray;
 }
 
 @media (max-width: 991px) {
@@ -56,8 +57,20 @@
         display: block;
     }
 }
+
 @media (max-width: 767px) {
+    .container-1,
+    .container-2,
+    .container-3 {
+        margin: 0;
+        padding: 0;
+        border-bottom: 0px solid lightgray;
+    }
+    .section-img {
+        margin: 0;
+    }
     .section-img img {
         border-radius: 0;
+        box-shadow: none;
     }
 }
