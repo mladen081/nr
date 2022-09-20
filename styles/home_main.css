@@ -23,9 +23,11 @@
     font-size: 2rem;
     padding: 0 5%;
 }
+
 .mobile {
-   display: none;
+    display: none;
 }
+
 .section-text h1 {
     margin-bottom: 30px;
     font-weight: 400;
@@ -47,12 +49,15 @@
         flex: 100%;
         margin: 5% auto;
     }
+
     .section-text {
         flex: 100%;
     }
+
     .desktop {
         display: none;
     }
+
     .mobile {
         display: block;
     }
@@ -64,11 +69,13 @@
     .container-3 {
         margin: 0;
         padding: 0;
-        border-bottom: 0px solid lightgray;
+        border-bottom: 0 solid lightgray;
     }
+
     .section-img {
         margin: 0;
     }
+
     .section-img img {
         border-radius: 0;
         box-shadow: none;
