@@ -7,7 +7,7 @@
     justify-content: center;
     margin: 30px 0;
     padding: 30px 0;
-    border-bottom: 5px solid lightgray;
+    border-bottom: 5px solid #90e0ef;
     background-color: #023e8a;
     color: #fff;
 }
@@ -31,7 +31,7 @@
 .section-text h1 {
     text-align: center;
     margin-bottom: 30px;
-    font-weight: 400;
+    font-weight: 800;
 }
 
 .section-text .text-l {
@@ -61,6 +61,7 @@
 
     .section-text {
         flex: 100%;
+        font-size: 1.7rem;
     }
     .section-text .text-l,
     .section-text .text-r {
