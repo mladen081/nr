@@ -7,9 +7,13 @@
     justify-content: center;
     margin: 30px 0;
     padding: 30px 0;
-    border-bottom: 5px solid #90e0ef;
-    background-color: #023e8a;
+    border-bottom: 5px solid #064663;
+    background-color: #041C32;
     color: #fff;
+}
+
+.container-1 {
+    margin-top: 15rem;
 }
 
 .section-img {
@@ -50,7 +54,7 @@
     margin: auto;
     border-radius: 20px;
     /*border: 5px solid lightgray;*/
-    box-shadow: 10px 5px 5px lightgray;
+    box-shadow: 10px 5px 5px #064663;
 }
 
 @media (max-width: 991px) {
@@ -83,7 +87,7 @@
     .container-3 {
         margin: 0;
         padding: 0;
-        border-bottom: 0 solid lightgray;
+        border-bottom: 0;
     }
 
     .section-img {
