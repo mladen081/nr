@@ -8,7 +8,8 @@
     margin: 30px 0;
     padding: 30px 0;
     border-bottom: 5px solid lightgray;
-    background-color: #fff;
+    background-color: #023e8a;
+    color: #fff;
 }
 
 .section-img {
@@ -18,10 +19,9 @@
 }
 
 .section-text {
-    text-align: center;
     flex: 50%;
     font-size: 2rem;
-    padding: 0 5%;
+    padding: 5% 5%;
 }
 
 .mobile {
@@ -29,8 +29,17 @@
 }
 
 .section-text h1 {
+    text-align: center;
     margin-bottom: 30px;
     font-weight: 400;
+}
+
+.section-text .text-l {
+    text-align: left;
+}
+
+.section-text .text-r {
+    text-align: right;
 }
 
 .section-img img {
@@ -52,6 +61,10 @@
 
     .section-text {
         flex: 100%;
+    }
+    .section-text .text-l,
+    .section-text .text-r {
+        text-align: center;
     }
 
     .desktop {

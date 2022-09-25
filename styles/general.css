@@ -8,6 +8,10 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    background-color: #023e8a;
+}
+
 .top-nav {
     background-color: transparent;
     text-align: center;
@@ -15,16 +19,21 @@ html {
 
 .top-nav a {
     display: inline-block;
-    color: #000;
+    color: #fff;
     padding: 34px 16px;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 2rem;
 }
 
+.top-nav a:hover,
+.top-nav a:focus {
+    color: #90e0ef;
+}
+
 @media (max-width: 767px) {
     .top-nav a {
-        color: #000;
+        color: #fff;
         padding: 14px 16px;
         font-size: 1rem;
     }

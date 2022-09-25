@@ -1,3 +1,3 @@
 document.addEventListener("scroll", function () {
-    document.querySelector(".top-nav").style.backgroundColor = "#339af0";
+    document.querySelector(".top-nav").style.backgroundColor = "#0077b6";
 });
